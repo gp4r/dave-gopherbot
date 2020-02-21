@@ -3,7 +3,7 @@ ProtocolConfig:
   MaxMessageSplit: {{ env "GOPHER_SLACK_MAX_MSGS" | default "2" }}
   SlackToken: xoxb-{{ decrypt "GHpKRL1CXWcmnDlm2mHgk/C8yTgwVGWrPTnLa9jWEv44s97anZV3gDjLKEPEGMeb5afllLIeJvg/dEBjrjHZqTq5zqFPXNXH5OWkC51F" }}
 
-DefaultChannels: [ "general", "random" ]
+DefaultChannels: [ "robots" ]
 
 UserRoster:
   - UserName: gp4r
